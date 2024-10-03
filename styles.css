@@ -1,0 +1,184 @@
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #060622, #0c0c2e);
+    color: #fff; /* Ensure text color contrasts against the background */
+    padding: 100px 0; /* Add padding for spacing */
+}
+
+.hero-section .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero-section .btn {
+    margin: 0.5rem;
+}
+
+/* Hero Image */
+.hero-image {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+}
+
+.hero-image img {
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Ensure height matches width for circular shape */
+    border-radius: 50%; /* Creates the circular shape */
+    object-fit: cover; /* Ensures the image is not distorted */
+    border: 3px solid #fff; /* Optional: border around the image */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Optional: shadow for styling */
+}
+
+/* Contact Button Styling */
+.btn-contact {
+    background-color: #8b99f9; /* Ensure the button has the correct background color */
+    color: #fff; /* Ensure the text color is white */
+    border: none; /* Remove any border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Add padding to the button */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.btn-contact:hover {
+    background-color: #e3336a; /* Slightly darker shade on hover */
+    color: #fff; /* Ensure text color remains white on hover */
+}
+
+/* Profile Section */
+.profile-section {
+    padding: 80px 50px;
+    background-color: #040416;
+    color: #fff; /* Ensure text color contrasts against the background */
+}
+
+/* Experience Section */
+.experience-section {
+    padding: 80px 50px;
+    background-color: #0c0c2e; /* Dark background for contrast */
+    color: #fff; /* Ensure text color contrasts against the background */
+}
+
+.experience-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #e3336a; /* Accent color for headings */
+}
+
+.experience-item {
+    margin-bottom: 1.5rem;
+    background-color: #040416; /* Dark background for experience items */
+    padding: 15px; /* Add padding for better spacing */
+    border-radius: 8px; /* Rounded corners for experience items */
+    height: 100%; /* Ensures cards are the same height */
+    display: flex; /* Make the cards flexible */
+    flex-direction: column; /* Arrange content in a column */
+    justify-content: space-between; /* Space items evenly */
+}
+
+.experience-item h3 {
+    font-size: 1.75rem;
+    color: #000; /* Dark color for job titles */
+}
+
+.experience-item p {
+    font-size: 1rem;
+    color: #000; /* Dark color for descriptions */
+}
+
+/* Skills Section */
+.skills-section {
+    padding: 80px 50px;
+    background-color: #040416; /* Dark background for skills section */
+    color: #fff; /* Ensure text color contrasts against the background */
+}
+
+.skills-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #e3336a; /* Accent color for headings */
+}
+
+.skills img {
+    width: 50px;
+    height: 50px;
+    margin: 10px; /* Add some spacing around the images */
+}
+
+/* Project Section */
+.project-section {
+    padding: 80px 50px;
+    background-color: #0c0c2e; /* Dark background for contrast */
+    color: #fff; /* Ensure text color contrasts against the background */
+}
+
+.project {
+    background-color: #040416; /* Dark background for projects */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add spacing between projects */
+    display: flex; /* Flexbox for alignment */
+    flex-direction: column; /* Arrange content in a column */
+    height: 100%; /* Ensure all cards are the same height */
+}
+
+.project h3 {
+    color: #e3336a; /* Accent color for project titles */
+    margin-bottom: 10px; /* Add spacing below the project title */
+}
+
+.project p {
+    color: #000; /* Dark color for project descriptions */
+}
+
+.project a {
+    color: #eaedf1; /* Bright link color for visibility */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make the link text stand out */
+    display: block; /* Ensure the link occupies its own line */
+    margin-top: 10px; /* Add spacing from the description */
+    background-color: #020f1c; /* Dark background for contrast */
+    padding: 5px; /* Padding around the link */
+    border-radius: 4px; /* Rounded corners */
+    text-align: center; /* Center align the link text */
+}
+
+.project a:hover {
+    text-decoration: underline; /* Underline on hover for better visibility */
+    color: #0056b3; /* Darker shade of blue for hover effect */
+    background-color: #e9ecef; /* Slightly darker background on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #060622; /* Dark background for footer */
+    color: #fff; /* Ensure text color contrasts against the background */
+    padding: 20px 0; /* Add padding for spacing */
+    text-align: center; /* Center align the footer content */
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #8b99f9; /* Link color for footer links */
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #e3336a; /* Hover color for footer links */
+}
